@@ -1,0 +1,53 @@
+:root{
+/*colores primarios*/
+--pale-blue: hsl(225, 100%, 94%);
+--bright-blue: hsl(245, 75%, 52%);
+
+/*Neutral*/
+--Very-pale-blue: hsl(225, 100%, 98%);
+--Desaturated-blue: hsl(224, 23%, 55%);
+--Dark-blue: hsl(223, 47%, 23%);
+}
+
+body{
+    background-color: var(--Desaturated-blue);
+}
+
+.card{
+    width: 300px;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white
+}
+.sound-hero{
+    border-radius: 20px 20px 0 0;
+    width: 100%
+}
+
+.titulo{
+    margin-bottom: 0px;
+}
+.texto{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+#cancion{
+    background-color: var(--Very-pale-blue);
+    width: 75%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.btn-changue{
+   padding: 0 5px;
+}
