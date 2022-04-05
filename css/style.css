@@ -83,10 +83,12 @@ body{
     text-align: center;
     cursor: pointer;
     font-weight: bold;
+    box-shadow: 0 8px 30px 2px var(--Desaturated-blue);
 }
 
 .btn-pay:hover{
     background-color: rgb(92, 92, 238);
+    
 }
 
 .btn-cancel{
