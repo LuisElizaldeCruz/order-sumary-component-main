@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
 :root{
 /*colores primarios*/
 --pale-blue: hsl(225, 100%, 94%);
@@ -11,6 +13,7 @@
 
 body{
     background-color: var(--Desaturated-blue);
+    font-family: 'Red Hat Display';
 }
 
 .card{
@@ -35,6 +38,9 @@ body{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 25px;
+    font-size:15px;
+    padding: 0 20px;;
+    color: var(--Desaturated-blue);
 }
 
 #cancion{
@@ -48,10 +54,23 @@ body{
     padding: 10px;
 }
 
+#texto-precio{
+   font-weight: bold;
+}
+#precio{
+    font-weight: normal;
+    color: var(--Desaturated-blue);
+}
+
 .btn-changue{
    padding: 0 5px;
    color: var(--bright-blue);
    text-decoration: underline;
+   cursor: pointer;
+}
+
+.btn-changue:hover{
+    color: rgb(90, 90, 240);
 }
 
 .btn-pay{
@@ -62,8 +81,22 @@ body{
     padding: 10px;
     color: white;
     text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-pay:hover{
+    background-color: rgb(92, 92, 238);
 }
 
 .btn-cancel{
     margin: 10px auto 30px auto;
+    color: var(--Desaturated-blue);
+    cursor: pointer;
+}
+
+.btn-cancel:hover{
+    color: var(--Dark-blue);
+    cursor: pointer;
+    font-weight: bold;
 }
